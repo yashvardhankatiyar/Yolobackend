@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load pre-trained YOLO model from local path (update the path as needed)
-model_path = 'models/yolov5.pt'  # Path where your model is located in Render's file system
+model_path = 'models/yolov5s.pt'  # Path where your model is located in Render's file system
 model = torch.load(model_path)  # Load the model directly
 
 @app.route('/')
