@@ -1,5 +1,8 @@
-flask
-flask-cors
-torch
-Pillow
-gunicorn
+flask==2.3.3
+flask-cors==4.0.0
+torch==2.0.1
+torchvision==0.15.2
+ultralytics==8.0.196
+pillow==10.0.1
+numpy==1.26.0
+gunicorn==21.2.0
